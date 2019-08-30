@@ -9,27 +9,28 @@
     <script type="text/javascript" src="app.js"></script>
 
     <style type="text/css">
-        p{
+        p {
             background-color: pink
         }
     </style>
     <!-- <script type="text/javascript" src="./main.js"></script> -->
-    <script type="text/javascript" src="./dist/bundle.js"></script>
+    <!-- <script type="text/javascript" src="./dist/bundle.js"></script> -->
+    <script type="text/javascript" src="/bundle.js"></script>
 </head>
 
 <body>
     <div>
 
-    <p>click me</p>
+        <p>click me</p>
     </div>
     <script type="text/javascript">
         $(function() {
-            // body...
-            $("p").on("click",function(){
-                $("p").after("<span>332</span>")
-            })
+                // body...
+                $("p").on("click", function() {
+                    $("p").after("<span>332</span>")
+                })
             }
-            
+
         )
     </script>
     <li>这是第一个li</li>

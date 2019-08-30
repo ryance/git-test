@@ -6,7 +6,8 @@ module.exports = {
     entry: path.join(__dirname, './src/main.js'), //输入文件路径
     output: {
         path: path.join(__dirname, './dist'), //输出文件路径
-        filename: 'bundle.js' //指定输出文件名称
+        filename: 'bundle.js', //指定输出文件名称
+
     }
 
 

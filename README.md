@@ -10,3 +10,4 @@ webpack-dev-server: 自动打包，实现热更新，以配置文件提供输入
 
 html-webpack-plugin:自动将html也打包到内存中
 
+babel是一个JS编译器，支持一些webpack本身不支持的高级语法。

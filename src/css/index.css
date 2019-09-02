@@ -2,3 +2,9 @@ li {
     list-style: none;
     color: purple;
 }
+
+html,
+body {
+    background: url('../images/bg.jpg');
+    /* webpack无法处理css文件中的url，不论图片还是字体库，需要用到loader */
+}
